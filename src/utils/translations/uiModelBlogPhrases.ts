@@ -1,0 +1,121 @@
+import { SupportedLanguage } from "../../types/language";
+
+export const UI_MODEL_BLOG_PHRASES: Record<string, Partial<Record<SupportedLanguage, string>>> = {
+  "3. official band 9.0 analysis & model response": {
+    "ur": "3. باضابطہ بینڈ 9.0 کا تجزیہ اور ماڈل جواب",
+    "ar": "3. التحليل الرسمي للدرجة 9.0 والنموذج المعتمد للإجابة",
+    "zh": "3. 官方满分 9.0 深度解析与全真范文示范",
+    "es": "3. Análisis Oficial de Banda 9.0 y Respuesta Modelo",
+    "fr": "3. Analyse Officielle de Bande 9.0 et Réponse Modèle",
+    "de": "3. Offizielle Band 9.0-Analyse & Musterantwort",
+    "hi": "3. आधिकारिक बैंड 9.0 विश्लेषण और मॉडल प्रतिक्रिया",
+    "pt": "3. Análise Oficial de Faixa 9.0 e Resposta Modelo",
+    "ru": "3. Официальный разбор на Band 9.0 и эталонный образец ответа",
+    "ja": "3. 公式バンド9.0詳細分析＆模範解答",
+    "bn": "৩. অফিসিয়াল ব্যান্ড ৯.০ বিশ্লেষণ এবং মডেল প্রতিক্রিয়া"
+  },
+  "band 9.0 benchmark": {
+    "ur": "بینڈ 9.0 کا معیار (بینچ مارک)",
+    "ar": "المعيار المرجعي للدرجة 9.0",
+    "zh": "9.0分满分基准标杆",
+    "es": "Punto de Referencia de Banda 9.0",
+    "fr": "Référence de Bande 9.0",
+    "de": "Band 9.0-Referenzwert",
+    "hi": "बैंड 9.0 बेंचमार्क",
+    "pt": "Referência de Faixa 9.0",
+    "ru": "Эталонный стандарт Band 9.0",
+    "ja": "バンド9.0公式ベンチマーク",
+    "bn": "ব্যান্ড ৯.০ বেঞ্চমার্ক"
+  },
+  "official examiner commentary": {
+    "ur": "سرکاری ممتحن کا تبصرہ",
+    "ar": "تعليق وتقييم الممتحن الرسمي",
+    "zh": "雅思考官官方权威深度点评",
+    "es": "Comentario Oficial del Examinador",
+    "fr": "Commentaire Officiel de l'Examinateur",
+    "de": "Offizieller Prüferkommentar",
+    "hi": "आधिकारिक परीक्षक टिप्पणी",
+    "pt": "Comentário Oficial do Examinador",
+    "ru": "Официальный комментарий экзаменатора",
+    "ja": "公式試験官講評・解説",
+    "bn": "অফিসিয়াল পরীক্ষকের মন্তব্য"
+  },
+  "fully addresses all requirements of the prompt with a fully developed position, substantive arguments, and nuanced justification.": {
+    "ur": "ایک مکمل طور پر تیار شدہ مؤقف، ٹھوس دلائل اور باریک بین جواز کے ساتھ سوال کی تمام ضروریات کو مکمل طور پر پورا کرتا ہے۔",
+    "ar": "يلبي جميع متطلبات الموضوع تماماً مع موقف متطور بالكامل، وحجج جوهرية قوية، وتبرير دقيق يراعي كافة الجوانب.",
+    "zh": "以高度成熟严密的论证立场、极具深度的实质性论据与周全的论述，完美满足题目的全部作答要求。",
+    "es": "Aborda plenamente todos los requisitos del enunciado con una postura completamente desarrollada, argumentos sustantivos y justificación matizada.",
+    "fr": "Répond pleinement à toutes les exigences avec une position très développée, des arguments de fond et une justification nuancée.",
+    "de": "Erfüllt alle Anforderungen der Aufgabenstellung umfassend mit einem ausgearbeiteten Standpunkt, fundierten Argumenten und differenzierter Begründung.",
+    "hi": "पूरी तरह से विकसित स्थिति, ठोस तर्क और सूक्ष्म औचित्य के साथ संकेत की सभी आवश्यकताओं को पूरी तरह से संबोधित करता है।",
+    "pt": "Atende plenamente a todos os requisitos com um posicionamento aprofundado, argumentos substantivos e justificativas refinadas.",
+    "ru": "Полностью удовлетворяет всем требованиям задания, демонстрируя зрелую позицию, весомые аргументы и глубокое обоснование.",
+    "ja": "設問のすべての要求事項を完全に満たし、十分に展開された見解、説得力のある実質的な論拠、およびニュアンスに富んだ論証を提示している。",
+    "bn": "একটি সম্পূর্ণ উন্নত অবস্থান, সারগর্ভ যুক্তি এবং সূক্ষ্ম ন্যায্যতা সহ প্রম্পটের সমস্ত প্রয়োজনীয়তা সম্পূর্ণরূপে সম্বোধন করে।"
+  },
+  "skillfully structures paragraphs with effortless conceptual referencing, utilizing seamless thematic transitions instead of mechanical signposts.": {
+    "ur": "مشینی اشاروں کے بجائے روانی سے موضوعاتی تبدیلیوں کا استعمال کرتے ہوئے، آسان تصوراتی حوالہ جات کے ساتھ پیراگراف کو مہارت سے ترتیب دیتا ہے۔",
+    "ar": "ينظم الفقرات ببراعة فائقة وإحالة مفاهيمية سلسة، موظفاً انتقالات موضوعية طبيعية بدلاً من العبارات الإرشادية الآلية والمبتذلة.",
+    "zh": "行文段落编排极其精妙，概念指代浑然天成，以无缝的主题递进取代生硬机械的路标式连接词。",
+    "es": "Estructura hábilmente los párrafos con referencias conceptuales fluidas, utilizando transiciones temáticas naturales en lugar de conectores mecánicos.",
+    "fr": "Structure habilement les paragraphes avec des références fluides, en utilisant des transitions thématiques naturelles plutôt que des balises mécaniques.",
+    "de": "Strukturiert Absätze gekonnt mit müheloser Verknüpfung und nutzt nahtlose thematische Übergänge statt mechanischer Phrasen.",
+    "hi": "यांत्रिक साइनपोस्टों के बजाय निर्बाध विषयगत बदलावों का उपयोग करते हुए, सहज वैचारिक संदर्भ के साथ पैराग्राफ को कुशलतापूर्वक व्यवस्थित करता है।",
+    "pt": "Estrutura parágrafos com maestria e referenciação conceitual fluida, empregando transições temáticas naturais em vez de marcadores mecânicos.",
+    "ru": "Мастерски выстраивает структуру абзацев с непринужденными концептуальными связками, используя естественные смысловые переходы вместо шаблонных клише.",
+    "ja": "定型的なつなぎ言葉に頼ることなく、滑らかな主題の展開と巧みな概念照応を用いて段落を極めて自然に構成している。",
+    "bn": "যান্ত্রিক সাইনপোস্টের পরিবর্তে বিজোড় বিষয়ভিত্তিক রূপান্তর ব্যবহার করে অনায়াসে ধারণাগত রেফারেন্সিং সহ অনুচ্ছেদগুলিকে দক্ষতার সাথে গঠন করে।"
+  },
+  "wide lexical repertoire deployed with full flexibility and precision. rare minor slips only as 'slips of the tongue' or stylistic variations.": {
+    "ur": "مکمل لچک اور درستگی کے ساتھ وسیع ذخیرہ الفاظ کا استعمال۔ شاذ و نادر معمولی خامیاں صرف زبانی لغزش یا اسلوب کے تنوع کے طور پر واقع ہوتی ہیں۔",
+    "ar": "حصيلة لغوية واسعة موظفة بمرونة ودقة استثنائية. الهفوات الطفيفة النادرة لا تتعدى كونها زلات لسان عفوية أو تنويعات أسلوبية مقبولة.",
+    "zh": "词汇量渊博宏大，运用自如精准。极罕见的微小瑕疵纯属偶发性的无心笔误或富有个性色彩的文体风格变体。",
+    "es": "Amplio repertorio léxico desplegado con total flexibilidad y precisión. Deslices menores y raros solo como lapsus o variaciones estilísticas.",
+    "fr": "Vaste répertoire lexical manié avec une grande souplesse et précision. Les rares écarts ne sont que des lapsus ou des variations de style.",
+    "de": "Breites lexikalisches Repertoire, eingesetzt mit voller Flexibilität und Präzision. Seltene minimale Ausrutscher sind lediglich Versprecher oder stilistische Varianten.",
+    "hi": "पूर्ण लचीलेपन और सटीकता के साथ उपयोग की जाने वाली विस्तृत शाब्दिक सूची। दुर्लभ मामूली चूक केवल 'जुबान की फिसलन' या शैलीगत भिन्नता के रूप में होती है।",
+    "pt": "Vasto repertório léxico empregado com máxima flexibilidade e precisão. Pequenos lapsos raros ocorrem apenas como deslizes pontuais ou variações de estilo.",
+    "ru": "Богатейший словарный запас используется с абсолютной гибкостью и точностью. Редкие мелкие неточности — лишь случайные описки или стилевые оттенки.",
+    "ja": "極めて広範な語彙を完全な柔軟性と的確さで自在に駆使。稀な軽微なミスは単なる言い間違いや文体上のバリエーションに過ぎない。",
+    "bn": "সম্পূর্ণ নমনীয়তা এবং নির্ভুলতার সাথে মোতায়েন করা বিস্তৃত লেক্সিক্যাল ভাণ্ডার। বিরল ছোটখাটো ভুল শুধুমাত্র 'জিহ্বার পিছলে যাওয়া' বা শৈলীগত ভিন্নতা হিসাবে ঘটে।"
+  },
+  "wide range of structures deployed with full flexibility and complete accuracy. natural use of inversions, reduced relative clauses, and subjunctive forms.": {
+    "ur": "مکمل لچک اور مکمل درستگی کے ساتھ ساختوں کی وسیع رینج کا استعمال۔ الٹے جملوں، مختصر کیے گئے رشتہ دار فقروں، اور شرائط کا فطری استعمال۔",
+    "ar": "مجموعة واسعة من التراكيب تُستخدم بمرونة ودقة متناهية. توظيف طبيعي للجمل المعكوسة (Inversion)، وشبه الجمل الموصولة المختصرة، وصيغ الشك والتمني.",
+    "zh": "极其多样化的复杂句型运用得得心应手且完全精准。自然穿插倒装句、缩略定语从句以及虚拟语气等高难语法结构。",
+    "es": "Amplia gama de estructuras desplegadas con total flexibilidad y total precisión. Uso natural de inversiones, cláusulas relativas reducidas y formas de subjuntivo.",
+    "fr": "Large éventail de structures déployées avec une souplesse et une précision absolues. Utilisation naturelle des inversions, des propositions réduites et du subjonctif.",
+    "de": "Breite Palette von Strukturen, eingesetzt mit voller Flexibilität und absoluter Genauigkeit. Natürliche Nutzung von Inversionen, verkürzten Relativsätzen und Konjunktiv.",
+    "hi": "पूर्ण लचीलेपन और पूर्ण सटीकता के साथ उपयोग की जाने वाली संरचनाओं की विस्तृत श्रृंखला। उलटाव, कम किए गए रिश्तेदार खंडों और संभाव्य रूपों का स्वाभाविक उपयोग।",
+    "pt": "Amplo repertório de estruturas empregado com máxima flexibilidade e precisão absoluta. Uso natural de inversões, orações reduzidas e subjuntivo.",
+    "ru": "Широкий спектр синтаксических структур используется с абсолютной гибкостью и безупречной точностью. Естественное применение инверсий, сокращенных придаточных и сослагательного наклонения.",
+    "ja": "多彩な構文を完全な柔軟性と正確さで運用。倒置構文、関係詞節の簡約化、仮定法・接続法を無理なく自然に使いこなしている。",
+    "bn": "সম্পূর্ণ নমনীয়তা এবং সম্পূর্ণ নির্ভুলতার সাথে মোতায়েন করা কাঠামোর বিস্তৃত পরিসর। বিপরীত বাক্য, হ্রাসকৃত আপেক্ষিক ধারা এবং সংযোজক ফর্মগুলির স্বাভাবিক ব্যবহার।"
+  },
+  "over-relying on robotic sentence starters (\"furthermore\", \"in addition\", \"on the one hand\") and writing overly broad generalizations without empirical evidence.": {
+    "ur": "مشینی جملے شروع کرنے والے الفاظ (\"مزید برآں\"، \"اس کے علاوہ\"، \"ایک طرف\") پر حد سے زیادہ انحصار کرنا اور تجرباتی شواہد کے بغیر حد سے زیادہ وسیع عمومی باتیں لکھنا۔",
+    "ar": "الاعتماد المفرط على بدايات الجمل الآلية والمكررة (مثل: \"علاوة على ذلك\"، \"بالإضافة إلى ذلك\"، \"من ناحية\") وكتابة تعميمات واسعة النطاق تفتقر إلى أدلة واقعية.",
+    "zh": "过度依赖机械教条的句首路标连接词（例如：“Furthermore”、“In addition”、“On the one hand”），并脱离客观事实依据空发宽泛泛化的宏论。",
+    "es": "Depender excesivamente de inicios de oraciones robóticos (\"Furthermore\", \"In addition\", \"On the one hand\") y escribir generalizaciones demasiado amplias sin evidencia empírica.",
+    "fr": "Dépendance excessive envers les amorces mécaniques (\"Furthermore\", \"In addition\", \"On the one hand\") et généralisations trop vastes sans preuves tangibles.",
+    "de": "Übermäßige Abhängigkeit von mechanischen Satzanfängen (\"Furthermore\", \"In addition\", \"On the one hand\") und übermäßig breite Verallgemeinerungen ohne empirische Belege.",
+    "hi": "रोबोटिक वाक्य शुरुआत (\"इसके अलावा\", \"अतिरिक्त\", \"एक तरफ\") पर अत्यधिक भरोसा करना और अनुभवजन्य साक्ष्य के बिना अत्यधिक व्यापक सामान्यीकरण लिखना।",
+    "pt": "Dependência excessiva de iniciadores robóticos (\"Furthermore\", \"In addition\", \"On the one hand\") e redação de generalizações vagas sem embasamento.",
+    "ru": "Чрезмерное использование шаблонных связок («Furthermore», «In addition», «On the one hand») и поверхностных обобщений без доказательств.",
+    "ja": "「Furthermore」「In addition」「On the one hand」などの機械的な文頭表現に過度に依存し、具体的な実証根拠を欠いた大まかな一般論を述べてしまうこと。",
+    "bn": "রোবোটিক বাক্য শুরুর উপর অতিরিক্ত নির্ভর করা (\"অধিকন্তু\", \"উপরন্তু\", \"একদিকে\") এবং অভিজ্ঞতামূলক প্রমাণ ছাড়াই অতিরিক্ত বিস্তৃত সাধারণীকরণ লেখা।"
+  },
+  "using anaphoric noun phrases (\"this structural shift...\", \"such systemic disparities...\") to link paragraphs, supported by concrete contextual examples and precise academic collocations.": {
+    "ur": "پیراگراف کو جوڑنے کے لیے اینافورک اسم کے فقرے (\"یہ ساختی تبدیلی...\"، \"ایسی نظامی عدم مساوات...\") کا استعمال، جس کی تائید ٹھوس سیاق و سباق کی مثالوں اور درست علمی الفاظ کے جوڑوں سے ہو۔",
+    "ar": "استخدام عبارات اسمية إحالية (مثل: \"هذا التحول الهيكلي...\"، \"مثل هذه التفاوتات المنهجية...\") للربط بين الفقرات، مدعومة بأمثلة سياقية ملموسة ومتلازمات أكاديمية دقيقة.",
+    "zh": "巧妙运用前照应名词短语（如：“This structural shift...”、“Such systemic disparities...”）自然穿针引线衔接各段落，并以具体翔实的语境实证与精准学术搭配提供有力支撑。",
+    "es": "Uso de frases nominales anafóricas (\"Este cambio estructural...\", \"Tales disparidades sistémicas...\") para vincular párrafos, respaldadas por ejemplos contextuales concretos y colocaciones académicas precisas.",
+    "fr": "Utilisation de syntagmes anaphoriques (\"Ce changement structurel...\", \"De telles disparités systémiques...\") pour lier les paragraphes, étayés par des exemples concrets et des collocations précises.",
+    "de": "Verwendung anaphorischer Nominalphrasen (\"This structural shift...\", \"Such systemic disparities...\") zur Verknüpfung von Absätzen, gestützt durch konkrete Beispiele und präzise Kollokationen.",
+    "hi": "पैराग्राफ को जोड़ने के लिए अनाफोरिक संज्ञा वाक्यांशों (\"यह संरचनात्मक बदलाव...\", \"ऐसी प्रणालीगत असमानताएं...\") का उपयोग करना, जो ठोस प्रासंगिक उदाहरणों और सटीक अकादमिक संयोजनों द्वारा समर्थित हैं।",
+    "pt": "Emprego de frases nominais anafóricas (\"Esta mudança estrutural...\", \"Tais disparidades sistêmicas...\") para encadear parágrafos, com exemplos concretos e colocações precisas.",
+    "ru": "Использование анафорических именных групп («Этот структурный сдвиг...», «Такие системные диспропорции...») для связи абзацев, подкрепленных конкретными примерами и точной лексикой.",
+    "ja": "段落間をつなぐために前方照応名詞句（「This structural shift...」「Such systemic disparities...」等）を活用し、具体的な事例と的確なアカデミック・コロケーションで論述を支えること。",
+    "bn": "অনুচ্ছেদগুলিকে লিঙ্ক করার জন্য অ্যানাফোরিক বিশেষ্য বাক্যাংশ (\"এই কাঠামোগত পরিবর্তন...\", \"এই ধরনের পদ্ধতিগত বৈষম্য...\") ব্যবহার করা, যা সুনির্দিষ্ট প্রাসঙ্গিক উদাহরণ এবং সুনির্দিষ্ট একাডেমিক কোলোকেশন দ্বারা সমর্থিত।"
+  }
+};

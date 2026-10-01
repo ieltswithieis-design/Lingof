@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+:root {
+  --alfa-cyan: #01cfe1;
+  --alfa-cyan-hover: #00b9ca;
+  --alfa-teal: #01c0b6;
+  --alfa-navy: #0a2540;
+  --alfa-navy-dark: #071b30;
+  --alfa-navy-light: #10375c;
+  --alfa-slate: #667085;
+}
+
+/* Alfa PTE Signature Button Styles */
+.btn-alfa-primary {
+  background-color: #01cfe1;
+  color: #0a2540;
+  font-weight: 800;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgba(1, 207, 225, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+.btn-alfa-primary:hover {
+  background-color: #00b9ca;
+  box-shadow: 0 6px 20px rgba(1, 207, 225, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-alfa-navy {
+  background-color: #0a2540;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(1, 207, 225, 0.25);
+  box-shadow: 0 4px 12px rgba(10, 37, 64, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+.btn-alfa-navy:hover {
+  background-color: #10375c;
+  border-color: #01cfe1;
+  transform: translateY(-1px);
+}
+
+/* Alfa PTE Card Hover Effect */
+.card-alfa {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(10, 37, 64, 0.05);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-alfa:hover {
+  border-color: rgba(1, 207, 225, 0.7);
+  box-shadow: 0 10px 30px rgba(1, 207, 225, 0.12), 0 4px 12px rgba(10, 37, 64, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Alfa PTE Custom Gradients */
+.bg-alfa-navy {
+  background: linear-gradient(135deg, #0a2540 0%, #0d2d4f 55%, #103a64 100%);
+}
+
+.bg-alfa-cyan-gradient {
+  background: linear-gradient(135deg, #01cfe1 0%, #01c0b6 100%);
+}
+
+.text-alfa-cyan {
+  color: #01cfe1;
+}
+
+.border-alfa-cyan {
+  border-color: #01cfe1;
+}
+
+@media print {
+  /* Hide all app chrome and page elements */
+  header,
+  footer,
+  nav,
+  button,
+  input,
+  select,
+  .no-print {
+    display: none !important;
+  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Make sure the certificate container expands cleanly for A4 printing */
+  #official-trf-canvas {
+    position: static !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 3px solid #002d62 !important;
+    padding: 18px !important;
+    page-break-inside: avoid !important;
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+}
+
+
+/* Persistent top navigation: keep exam tabs clean on narrow screens. */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Global casing invariant: never use CSS to lowercase/capitalize application text.
+   English casing is preserved by the source strings + translation DOM restore path. */
+/* Test content must preserve the author's exact capitalization and casing. */
+.test-content,
+.test-content * {
+  text-transform: none !important;
+}
+
+/* Keep database/test text readable and stable across browsers. */
+.test-prose {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  text-transform: none !important;
+  font-variant-caps: normal;
+}
+
+/* Respect the user's system motion preference for animated examination cards. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
