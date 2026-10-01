@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IeltsTestUploadPayload",
+  "description": "JSON schema for uploading or inserting tests into the database",
+  "type": "object",
+  "required": ["section", "title"],
+  "properties": {
+    "section": {
+      "type": "string",
+      "enum": ["reading", "listening", "writing", "speaking", "full"]
+    },
+    "title": {
+      "type": "string",
+      "example": "Academic Reading: Marine Biology"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["Standard Academic", "High Stakes Academic", "Official Cambridge Simulation"],
+      "default": "Official Cambridge Simulation"
+    },
+    "passages": {
+      "type": "array",
+      "description": "Required for Reading tests. 1 to 3 long passage texts.",
+      "items": { "type": "string" }
+    },
+    "audioScript": {
+      "type": "string",
+      "description": "Required for Listening tests if audio URL is not provided"
+    },
+    "audioUrl": {
+      "type": "string",
+      "description": "Optional direct audio link (mp3) for listening tests"
+    },
+    "task1Prompt": {
+      "type": "string",
+      "description": "Writing Task 1 prompt (Graph/Chart description)"
+    },
+    "task2Prompt": {
+      "type": "string",
+      "description": "Writing Task 2 prompt (Argumentative essay)"
+    },
+    "speakingParts": {
+      "type": "object",
+      "properties": {
+        "part1": { "type": "array", "items": { "type": "string" } },
+        "part2": { "type": "string" },
+        "part3": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "q", "answer"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["mcq", "tfng", "blanks", "matching", "short"]
+          },
+          "q": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "answer": {
+            "oneOf": [
+              { "type": "number", "description": "0-based index for MCQ" },
+              { "type": "string", "description": "'TRUE', 'FALSE', 'NOT GIVEN' or expected string text" }
+            ]
+          },
+          "explanation": { "type": "string" }
+        }
+      }
+    }
+  }
+}

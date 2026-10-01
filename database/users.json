@@ -1,0 +1,38 @@
+[
+  {
+    "id": "usr_admin_001",
+    "name": "Hamid Ali (Director)",
+    "email": "admin@lingofi.org",
+    "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "targetBand": 9,
+    "createdAt": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "usr_teacher_001",
+    "name": "Prof. Sarah Jenkins",
+    "email": "teacher@cambridge.edu",
+    "passwordHash": "3d4f2bf07dc1be38b20cd6e46949a1071f9d0e3d1052fb58f62f85e49b8cb9d5",
+    "role": "teacher",
+    "targetBand": 8.5,
+    "createdAt": "2026-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "usr_cand_001",
+    "name": "Official Candidate",
+    "email": "candidate@student.com",
+    "passwordHash": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1",
+    "role": "candidate",
+    "targetBand": 7.5,
+    "createdAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "usr_1790149045225_x3qb7o",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@test.com",
+    "passwordHash": "6e659deaa85842cdabb5c6305fcc40033ba43772ec00d45c2a3c921741a5e377",
+    "role": "candidate",
+    "targetBand": 8,
+    "createdAt": "2026-09-23T07:37:25.225Z"
+  }
+]

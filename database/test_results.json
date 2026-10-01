@@ -1,0 +1,18 @@
+[
+  {
+    "id": "trf_sample_001",
+    "trfCode": "26GB001234HAMI901A",
+    "userId": "usr_cand_001",
+    "candidateName": "Official Candidate",
+    "testId": 1,
+    "testTitle": "Full IELTS Academic Test 1",
+    "overallBand": 7.5,
+    "scores": {
+      "reading": 8.0,
+      "listening": 7.5,
+      "writing": 7.0,
+      "speaking": 7.5
+    },
+    "completedAt": "2026-09-18T14:30:00.000Z"
+  }
+]

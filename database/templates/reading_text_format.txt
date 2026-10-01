@@ -1,0 +1,43 @@
+=== TEST META ===
+title: Academic Reading: Deep-Sea Ecosystems & Hydrothermal Vents
+section: reading
+difficulty: Official Cambridge Simulation
+
+=== PASSAGE 1 ===
+Hydrothermal vents are fissures on the seabed from which geothermally heated water issues. Hydrothermal vents are commonly found near volcanically active places, areas where tectonic plates are moving apart at spreading centers, ocean basins, and hotspots. The water that issues from hydrothermal vents consists largely of sea water drawn into the hydrothermal system close to the volcanic building through faults and porous sediments or volcanic strata, plus some magmatic water released by the upwelling magma.
+
+In terrestrial hydrothermal systems, the majority of water that circulates within hydrothermal systems is meteoric water (groundwater). The vent systems support specialized ecosystems that rely on chemosynthesis rather than photosynthesis for energy. Microorganisms, such as sulfur-oxidizing bacteria, convert minerals and hydrogen sulfide discharged by the vents into organic compounds, forming the base of an extraordinary food web that includes giant tube worms, vent crabs, and blind shrimp.
+
+=== QUESTIONS ===
+
+[MCQ]
+Q: Which geological location is most commonly associated with hydrothermal vents?
+A) Glacial moraines
+B) Spreading tectonic plate boundaries
+C) Desert sand dunes
+D) High mountain plateaus
+ANS: B
+EXPLANATION: Paragraph 1 states vents are commonly found where tectonic plates are moving apart at spreading centers.
+
+[TFNG]
+Q: Hydrothermal vents emit cold Arctic currents into the deep ocean.
+ANS: FALSE
+EXPLANATION: Paragraph 1 states vents issue geothermally heated water.
+
+[TFNG]
+Q: Hydrothermal vent ecosystems are powered directly by sunlight and photosynthesis.
+ANS: FALSE
+EXPLANATION: Paragraph 2 states they rely on chemosynthesis rather than photosynthesis.
+
+[BLANKS]
+Q: Microorganisms convert minerals and [hydrogen sulfide] into organic compounds to sustain deep-sea food webs.
+ANS: hydrogen sulfide
+
+[MCQ]
+Q: What organism forms the primary base of the hydrothermal food web?
+A) Giant blue whales
+B) Sulfur-oxidizing bacteria
+C) Terrestrial eagles
+D) Phytoplankton
+ANS: B
+EXPLANATION: Paragraph 2 notes sulfur-oxidizing bacteria convert minerals into organic compounds.
