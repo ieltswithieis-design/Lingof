@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: lingofi
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        value: https://YOUR_PROJECT_REF.supabase.co
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: GROQ_CHAT_MODEL
+        value: openai/gpt-oss-120b
+      - key: GROQ_STT_MODEL
+        value: whisper-large-v3
