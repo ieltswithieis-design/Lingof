@@ -1,0 +1,1091 @@
+{
+  "(\"\");\n\n  const [aiAnalysis, setAiAnalysis] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n\n  const [uploadedFile, setUploadedFile] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n\n  const mediaRecorderRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [aiError, setAiError] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [audioPermission, setAudioPermission] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [candidateId, setCandidateId] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [claimedListening, setClaimedListening] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [claimedReading, setClaimedReading] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [claimedSpeaking, setClaimedSpeaking] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [claimedWriting, setClaimedWriting] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"\");\n  const [scanProgress, setScanProgress] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"Alex Morgan\");\n  const [isEditingName, setIsEditingName] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"base\");\n  const [isReadingAloud, setIsReadingAloud] = useState": [
+    "es",
+    "fr",
+    "pt"
+  ],
+  "(\"conversation\");\n  const [audioNotice, setAudioNotice] = useState": [
+    "fr"
+  ],
+  "(\"idle\");\n  const [countdown, setCountdown] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"popular\");\n  const [selectedStory, setSelectedStory] = useState": [
+    "es",
+    "pt"
+  ],
+  "(\"unknown\");\n\n  const mediaRecorderRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"unknown\");\n  const [micTesting, setMicTesting] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(\"unknown\");\n  const [micVolume, setMicVolume] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n\n  const mediaRecorderRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [isEvaluating, setIsEvaluating] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [isPlaying, setIsPlaying] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [passageDisplayMode, setPassageDisplayMode] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [step, setStep] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [submittedSections, setSubmittedSections] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const [verificationResult, setVerificationResult] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(0);\n  const isPlayingRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(120);\n  const [isSpeakRunning, setIsSpeakRunning] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(15);\n  const [viewMode, setViewMode] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(20 * 60); // 20 minutes\n  const [isTimerRunning, setIsTimerRunning] = useState": [
+    "fr"
+  ],
+  "(30 * 60);\n  const [isTimerRunning, setIsTimerRunning] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(33);\n  const [listeningRaw, setListeningRaw] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(34);\n  const [writingBand, setWritingBand] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(60 * 60);\n  const [isTimerRunning, setIsTimerRunning] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(60);\n  const [isPrepRunning, setIsPrepRunning] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(7.0);\n  const [speakingBand, setSpeakingBand] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "([]);\n  const countdownIntervalRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "([]);\n  const recognitionRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "([]);\n  const timerIntervalRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n\n  // Lexical Vault State\n  const [selectedVocabTopic, setSelectedVocabTopic] = useState": [
+    "fr",
+    "pt"
+  ],
+  "(null);\n\n  const fileInputRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n\n  const portraitInputRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [activeFullTest, setActiveFullTest] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [aiAnalysis, setAiAnalysis] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [aiAnalysis2, setAiAnalysis2] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [candidatePhoto, setCandidatePhoto] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [isLoadingAi, setIsLoadingAi] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [isLoadingAi1, setIsLoadingAi1] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [isSaved, setIsSaved] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [isScanning, setIsScanning] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [isUploading, setIsUploading] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [itemsPerCategoryLimit, setItemsPerCategoryLimit] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [recordedAudioBlob, setRecordedAudioBlob] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [showResetConfirmModal, setShowResetConfirmModal] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [speakingWordId, setSpeakingWordId] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const [verificationTrfCode, setVerificationTrfCode] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const analyserRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const animationFrameRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const audioChunksRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const audioContextRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const audioPlayerRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const audioStreamRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const autoTimerIntervalRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const campusInputRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const conversationScrollRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const currentUtteranceRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const fileInputRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const playDelayTimeoutRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "(null);\n  const recognitionRef = useRef": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  ") : downloadSuccess ? (": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  ") : isMale ? (": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  ") : micPermission === \"denied\" ? (": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  ") : verificationResult ? (": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "Band 8.0+": [
+    "de",
+    "ru"
+  ],
+  "Band 8.5": [
+    "de",
+    "ru"
+  ],
+  "Band 8.5–9.0": [
+    "de",
+    "ru"
+  ],
+  "Band 9.0": [
+    "de",
+    "ru"
+  ],
+  "Conversation": [
+    "fr"
+  ],
+  "Correct": [
+    "fr"
+  ],
+  "Dr. Hamid Ali, Ph.D.": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "Esc": [
+    "es",
+    "de",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "bn"
+  ],
+  "IIUI Islamabad, Pakistan": [
+    "fr",
+    "de"
+  ],
+  "IIUI Pakistan": [
+    "fr",
+    "de"
+  ],
+  "Islamabad / Rawalpindi": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "Islamabad / Rawalpindi, Pakistan": [
+    "fr",
+    "de"
+  ],
+  "Live": [
+    "de"
+  ],
+  "Matrix": [
+    "de"
+  ],
+  "PHOTO": [
+    "fr"
+  ],
+  "Pause": [
+    "fr",
+    "de"
+  ],
+  "Prof. E. R. Harrison": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "Questions": [
+    "fr"
+  ],
+  "Sections 1–4": [
+    "fr"
+  ],
+  "Sophia L.": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "pt"
+  ],
+  "Spatial": [
+    "fr"
+  ],
+  "Status:": [
+    "de",
+    "pt"
+  ],
+  "TOTAL": [
+    "es",
+    "fr",
+    "pt"
+  ],
+  "Test": [
+    "fr",
+    "de"
+  ],
+  "Test mismatched score": [
+    "fr"
+  ],
+  "Top 4": [
+    "de"
+  ],
+  "Top 6": [
+    "de"
+  ],
+  "Verbal": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "getStoredCampusPhoto());\n  const [uploadFeedback, setUploadFeedback] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "getStoredPrimaryPortrait());\n  const [customFullPhoto, setCustomFullPhoto] = useState": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "parseScriptToDialogue(script, partNumber)\n  );\n  const [currentTurnIndex, setCurrentTurnIndex] = useState": [
+    "fr"
+  ],
+  "src/assets/images/": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "src/assets/images/hamid_ali_campus.jpg": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ],
+  "src/assets/images/hamid_ali_portrait.jpg": [
+    "es",
+    "fr",
+    "de",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ru",
+    "ja",
+    "ur",
+    "bn"
+  ]
+}
