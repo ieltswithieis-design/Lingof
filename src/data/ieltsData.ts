@@ -64,14 +64,35 @@ function normalizeListeningTest(test: any) {
   };
 }
 
+function normalizeSpeakingTest(test: any) {
+  const rawPart2 = test?.part2;
+  const cueCard =
+    typeof rawPart2 === "string"
+      ? rawPart2
+      : String(
+          rawPart2?.cueCard ??
+          rawPart2?.cue_card ??
+          rawPart2?.prompt ??
+          rawPart2?.question ??
+          ""
+        );
+
+  return {
+    ...test,
+    part1: Array.isArray(test?.part1) ? test.part1.map((q: any) => String(q ?? "").trim()) : [],
+    part2: cueCard.trim(),
+    part3: Array.isArray(test?.part3) ? test.part3.map((q: any) => String(q ?? "").trim()) : [],
+  };
+}
+
 export function normalizeIeltsDatabase(source: any): IeltsDatabase {
   source = source || {};
   return {
-  ...source,
-  reading: Array.isArray(source.reading) ? source.reading.map(normalizeReadingTest) : [],
-  listening: Array.isArray(source.listening) ? source.listening.map(normalizeListeningTest) : [],
-  writing: Array.isArray(source.writing) ? source.writing : [],
-  speaking: Array.isArray(source.speaking) ? source.speaking : [],
+    ...source,
+    reading: Array.isArray(source.reading) ? source.reading.map(normalizeReadingTest) : [],
+    listening: Array.isArray(source.listening) ? source.listening.map(normalizeListeningTest) : [],
+    writing: Array.isArray(source.writing) ? source.writing : [],
+    speaking: Array.isArray(source.speaking) ? source.speaking.map(normalizeSpeakingTest) : [],
   };
 }
 
